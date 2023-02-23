@@ -1,6 +1,7 @@
 body{
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
+    background: #f6fff8;
 }
 
 h2{
@@ -19,4 +20,5 @@ button{
     margin: 5px;
     border: none;
     font-family: 'Noto Sans', sans-serif;
+    cursor: pointer;
 }
