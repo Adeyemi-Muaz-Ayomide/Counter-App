@@ -7,7 +7,14 @@ body{
 
 h2{
     font-size: 5em;
-}
+    transform: scale(0.90);
+    animation: scale 5s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}  
+@keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  } 
 .counting{
     font-size: 5em;
     color: green;
@@ -21,4 +28,18 @@ button{
     border: none;
     font-family: 'Noto Sans', sans-serif;
     cursor: pointer;
+    box-shadow: 0 9px #999;
 }
+
+.btn:hover {
+    background-color: #e5e5e5;
+}
+/* :hover {
+    background-color: #e5e5e5;
+} */
+.btn:active {
+    background-color: #edede9;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+} 
+
