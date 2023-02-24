@@ -15,5 +15,12 @@ btns.forEach(function(btn) {
         };
 
         countEl.textContent = count;
-    })
-})
+        if(count > 0 ) {
+            countEl.style.color = 'green';
+        }else if(count < 0) {
+            countEl.style.color = 'red';
+        } else{
+            countEl.style.color = '#264653';
+        }
+    });
+});
