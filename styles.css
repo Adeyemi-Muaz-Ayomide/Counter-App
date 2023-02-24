@@ -2,13 +2,13 @@ body{
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
     background: #f6fff8;
+    font-size: 17px;
 }
 
 h2{
     font-size: 5em;
 }
-
-span{
+.counting{
     font-size: 5em;
     color: green;
 }
@@ -17,7 +17,7 @@ button{
     padding: 20px;
     border-radius: 8px;
     font-size: 1.2em;
-    margin: 5px;
+    margin: 20px 5px;
     border: none;
     font-family: 'Noto Sans', sans-serif;
     cursor: pointer;
