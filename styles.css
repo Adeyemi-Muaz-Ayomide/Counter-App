@@ -6,7 +6,7 @@ body{
 }
 
 h2{
-    font-size: 5em;
+    font-size: 3.3em;
     transform: scale(0.90);
     animation: scale 5s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }  
